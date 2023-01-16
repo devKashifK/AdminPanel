@@ -1,0 +1,157 @@
+.productsConatiner {
+  overflow: scroll;
+  height: 315px;
+}
+
+.main {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.primaryBox {
+  max-width: 67% !important;
+  min-width: 67% !important;
+  max-height: 505px;
+}
+.secondaryBox {
+  max-width: 33% !important;
+  min-width: 33% !important;
+  max-height: 505px;
+}
+.boxCategory {
+  border-top: 1px solid #415a70;
+  padding: 15px 15px;
+  font-size: 14px;
+  background-color: #50697f;
+  color: white;
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 1rem;
+  border-collapse: collapse;
+  display: flex;
+  justify-content: space-between;
+}
+.checkbox {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input[type="checkbox"] {
+  cursor: pointer;
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #394e64;
+  background-position: center;
+  border-radius: 50%;
+  box-sizing: border-box;
+  position: relative;
+  box-sizing: content-box;
+  width: 24px;
+  height: 24px;
+  transition: all 0.1s linear;
+}
+input[type="checkbox"]:focus {
+  outline: 0 none;
+  box-shadow: none;
+}
+input[type="checkbox"]:checked {
+  background: url(../../../public/check-mark.png) #394e64 center no-repeat;
+}
+.names {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10px;
+  width: 639px;
+  background-color: #415a708f;
+  padding: 15px 15px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 15px;
+  border-top: 1px solid #415a70;
+  align-items: center;
+  text-align: left;
+  border-collapse: collapse;
+  width: 639px;
+}
+.row:hover {
+  color: #a0c0de;
+  background-color: #415a708f;
+}
+.delete {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #415a708f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+}
+
+.column {
+  padding: 15px 15px;
+  font-size: 14px;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+table {
+  width: 100%;
+}
+.title{
+  color: white;
+  font-size: 22px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.addNewCategory{
+  position: absolute !important;
+  top: 0%;
+  left: 20%;
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+  position: relative;
+}
+.icon{
+  position: absolute;
+  right: -30px;
+  border-radius: 50%;
+  background-color: rgb(245, 166, 35);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  color: white;
+  top: 0;
+}
+
+.colGroup{
+  display: flex;
+width: 100%;
+justify-content:center ;
+  align-items: flex-start;
+  flex-direction: column;
+  color: white;
+  gap: 10px;
+}
+.colGroup input{
+  padding: 19px 18px;
+  border-radius: 0;
+  height: 50px;
+  color: white;
+  border: none;
+  width: 100%;
+  outline: none;
+  background-color: #54657d;
+}

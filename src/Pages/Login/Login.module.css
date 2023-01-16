@@ -1,0 +1,35 @@
+.loginForm {
+    width: 45%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0px auto;
+    flex-direction: column;
+    color: white;
+    gap: 20px;
+    background-color: #435c70;
+    padding: 40px;
+  }
+  .userLogInForm {
+    width: 100%;
+  }
+  .colGroup {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 7px;
+    margin-bottom: 20px;
+  }
+  .colGroup input {
+    padding: 19px 18px;
+    border-radius: 0;
+    height: 50px;
+    border: none;
+    outline: none;
+    background-color: #54657d;
+  }
+
+  .errorMsg{
+    color :#f5a623;
+    font-size: 12px;
+  }

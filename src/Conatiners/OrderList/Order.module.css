@@ -1,0 +1,66 @@
+.mainBox {
+  max-width: 100%;
+  min-width: 100%;
+}
+table {
+  background-color: #50697f;
+  width: 100%;
+  text-align: left;
+  color: white;
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 1rem;
+  border-collapse: collapse;
+  height: 80%;
+}
+
+table .names {
+    border-top: 1px solid #415a70;
+    padding: 15px 15px;
+    background-color: #415a708f;
+    font-size: 16px;
+}
+table .column {
+  padding: 15px 15px;
+}
+.row{
+  border-top: 1px solid #415a70;
+  font-size: 14px;
+  border-collapse: collapse;
+}
+.statusBox{
+  display: flex;
+  gap:05px;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 15px 15px;
+}
+.status{
+width: 05px;
+height: 05px;
+border-radius: 50%;
+}
+
+.cancelled {
+  background-color: #da534f;
+  box-shadow: 0 0 8px #da534f, inset 0 0 8px #da534f;
+}
+.pending {
+  background-color: #efc54b;
+  box-shadow: 0 0 8px #efc54b, inset 0 0 8px #efc54b;
+}
+.moving{
+  background-color: #9be64d;
+  box-shadow: 0 0 8px #9be64d, inset 0 0 8px #9be64d;
+}
+.delivered{
+  background-color: #1cff03;
+  box-shadow: 0 0 8px #1cff03, inset 0 0 8px #1cff03;
+}
+.container {
+  overflow: scroll;
+  height: 315px;
+  scroll-behavior: smooth;
+  width: 100%;
+  display: flex;
+}

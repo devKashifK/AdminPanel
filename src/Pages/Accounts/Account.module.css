@@ -1,0 +1,138 @@
+.selectAccount {
+  max-width: 100%;
+  min-width: 100%;
+  min-height: max-content;
+}
+.selectAccount h3 {
+  font-size: 18px;
+  color: white;
+  font-weight: 600;
+  padding: 10px 0px;
+}
+.selectAccount p {
+  color: white;
+  padding: 10px 0px;
+}
+.customSelect {
+  width: 100%;
+  border: none;
+  color: #acc6de;
+  height: 50px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  padding: 15px;
+  background: url(../../../public/arrow-down.png) 98% no-repeat #50657b;
+  color: white;
+}
+
+.container {
+  display: flex;
+  margin: 50px 0px;
+  gap: 30px;
+}
+.primaryBox {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 40%;
+  min-width: 40%;
+}
+.secondaryBox {
+  max-width: 57%;
+  min-width: 57%;
+}
+.secondaryBox h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: white;
+  text-align: left;
+}
+.primaryBox h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  text-align: left;
+}
+.imgBox {
+  width: 100%;
+  height: 250px;
+  position: relative;
+  /* height: 100%; */
+}
+.delete {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  display: none;
+  color: white;
+  font-size: 28px;
+  cursor: pointer;
+}
+.icon {
+  background-color: #415a708f;
+  color: white;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.imgBox:hover .delete {
+  display: flex;
+}
+.imgBox img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.forms {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 20px;
+}
+.formRow {
+  width: 100%;
+  display: flex;
+  gap: 30px;
+  justify-content: flex-start;
+  align-items: end;
+}
+.formColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: white;
+  width: 50%;
+}
+.formColumn input {
+  padding: 19px 18px;
+  border-radius: 0;
+  height: 50px;
+  border: none;
+  outline: none;
+  background-color: #54657d;
+  color: white;
+}
+.newPhoto {
+  display: flex;
+  flex-direction: column;
+}
+.btn {
+  font-size: 18px;
+}
